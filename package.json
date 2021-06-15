@@ -1,7 +1,8 @@
 {
-  "name": "browser-server",
-  "version": "1.0.3",
+  "name": "@frdl/browser-server",
+  "version": "0.0.1",
   "description": "A HTTP \"server\" in the browser that uses a service worker to allow you to easily send back your own stream of data.",
+  "keywords" : [],
   "main": "index.js",
   "dependencies": {
     "http-status": "^1.0.1",
@@ -25,7 +26,7 @@
     "url": "https://github.com/mafintosh/browser-server/issues"
   },
   "bin": {
-    "browser-server": "./cli.js"
+    "frdl-browser-server": "./cli.js"
   },
   "homepage": "https://github.com/mafintosh/browser-server"
 }
